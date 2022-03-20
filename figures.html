@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometric figures</title>
+</head>
+<body>
+    <header>
+        <h1>Geometric Figures</h1>
+
+        <p>Exercise</p>
+
+        <section>
+            <h2>Calculate the area and perimeter of a square</h2>
+            <form>
+                <label for="squareInput">
+                    Write how long each side of your square:
+                </label>
+                <input id="squareInput" type="number" />
+                <button type="button" onclick="calculateSquarePerimeter()">Calculate perimeter</button>
+                <button type="button" onclick="calculateSquareArea()">Calculate area</button>
+                
+            </form>
+        </section>
+        <section>
+            <h2>Calculate the area and perimeter of a triangle</h2>
+            <form>
+                <label for="triangleInput">
+                    Write how long each side of your triangle:
+                </label>
+                <br/>
+                <br/>
+                <label>Lado 1</label>
+                <br/>
+                <input id="triangleInput" type="number" />
+                <br/>
+                <label>Lado 2</label>
+                <br/>
+                <input id="triangleInput" type="number" />
+                <br/>
+                <label>Base</label>
+                <br/>
+                <input id="triangleInput" type="number" />
+                <br/>
+                <br/>
+                <button type="button" onclick="calculateTrianglePerimeter()">Calculate perimeter of a triangle</button>
+                <br/>
+                <br/>
+                <button type="button" onclick="calculateTriangleArea()">Calculate area of a triangle</button>
+            </form>
+        </section>
+    </header>
+
+    <script src="./figuresWithFunction.js"></script>
+
+</body>
+    
+</body>
+</html>
